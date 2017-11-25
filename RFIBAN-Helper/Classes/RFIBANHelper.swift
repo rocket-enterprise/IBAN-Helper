@@ -8,8 +8,8 @@ public enum IbanCheckStatus: Int {
   case invalidChecksum
   case invalidInnerStructure
   case invalidStartBytes
-  @available(*, deprecated: 2.0.1, message: "Pleaes use `invalidStructure` instead")
-  case invalidCharacters
+  //@available(*, deprecated: 2.0.1, message: "Pleaes use `invalidStructure` instead")
+  //case invalidCharacters
   case invalidLength
   case invalidStructure
 }
